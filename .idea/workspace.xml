@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Finish Home Page">
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Fix mac image taking up too much space">
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/skills.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/FC.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,8 @@
       <workItem from="1611005269480" duration="284000" />
       <workItem from="1611046693569" duration="904000" />
       <workItem from="1611056533561" duration="33000" />
-      <workItem from="1611056567943" duration="6978000" />
+      <workItem from="1611056567943" duration="11574000" />
+      <workItem from="1611080441820" duration="180000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -86,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611064185802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix mac image taking up too much space">
+      <created>1611071322635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611071322635</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +123,8 @@
     <MESSAGE value="Git init part 2" />
     <MESSAGE value="add yarn deploy" />
     <MESSAGE value="Finish Home Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish Home Page" />
+    <MESSAGE value="Fix mac image taking up too much space" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix mac image taking up too much space" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
