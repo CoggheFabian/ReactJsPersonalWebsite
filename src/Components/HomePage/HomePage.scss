@@ -21,7 +21,7 @@ $margin-top-underImg :20px;
 
     #socialMedia{
       grid-area: socialMedia;
-      margin-top: 40%;
+      margin-top: 30%;
       margin-left: $margin-left;
       padding-top: 15px;
       border-top: 4px dotted grey;
@@ -47,7 +47,7 @@ $margin-top-underImg :20px;
     }
 
     #faceImg{
-      margin-top: 10%;
+      margin-top: 15%;
       margin-left: $margin-left;
       grid-area: faceImg;
       border: 10px solid black;
@@ -66,8 +66,9 @@ $margin-top-underImg :20px;
   }
 
   #computerImg{
+    margin-top: 5%;
+    margin-bottom: 0;
     grid-area: largeImg;
-    height: 105%;
   }
 
 }

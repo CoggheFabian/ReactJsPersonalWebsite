@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="add yarn deploy">
-      <change afterPath="$PROJECT_DIR$/public/mac_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/foto_gezicht.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Finish Home Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HomePage/HomePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HomePage/HomePage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +56,7 @@
       <workItem from="1611005269480" duration="284000" />
       <workItem from="1611046693569" duration="904000" />
       <workItem from="1611056533561" duration="33000" />
-      <workItem from="1611056567943" duration="4048000" />
+      <workItem from="1611056567943" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -90,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610982146103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finish Home Page">
+      <created>1611064185802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611064185802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +108,8 @@
     <MESSAGE value="Git init" />
     <MESSAGE value="Git init part 2" />
     <MESSAGE value="add yarn deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add yarn deploy" />
+    <MESSAGE value="Finish Home Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish Home Page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
