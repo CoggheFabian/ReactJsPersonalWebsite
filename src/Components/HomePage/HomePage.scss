@@ -1,0 +1,73 @@
+$margin-left: 30px;
+$margin-top-underImg :20px;
+
+#homepageContainer{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 70% 30%;
+  grid-template-areas:
+  "page largeImg";
+
+  #page{
+    grid-area: page;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 32% 70%;
+    grid-template-areas:
+    "faceImg ."
+    "faceImg personalInfo"
+    "socialMedia ."
+    "navbar navbar";
+
+    #socialMedia{
+      grid-area: socialMedia;
+      margin-top: 40%;
+      margin-left: $margin-left;
+      padding-top: 15px;
+      border-top: 4px dotted grey;
+      a{
+        padding-right: 20px;
+      }
+    }
+
+    #navbar{
+        grid-area: navbar;
+        margin-top: 3%;
+        .navigationButton{
+          margin-top: $margin-top-underImg;
+          margin-left: $margin-left;
+          border:4px solid black;
+          display:inline-block;
+          cursor:pointer;
+          color: black;
+          font-size:1.5em;
+          padding:1% 8%;
+          text-decoration:none;
+        }
+    }
+
+    #faceImg{
+      margin-top: 10%;
+      margin-left: $margin-left;
+      grid-area: faceImg;
+      border: 10px solid black;
+    }
+
+    #personalInfo{
+      grid-area: personalInfo;
+      h1{
+        font-family: Satisfy, serif;
+        font-size: 3em;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+    }
+
+  }
+
+  #computerImg{
+    grid-area: largeImg;
+    height: 105%;
+  }
+
+}

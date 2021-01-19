@@ -1,14 +1,13 @@
 import React from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
-import logo from './logo.svg';
+import { Route, Switch} from "react-router-dom";
 import './App.css';
-import Test from '../src/Components/test';
+import HomePage from "./Components/HomePage/HomePage";
 
 function App() {
   return (
       <div className="App">
         <Switch>
-          <Route path="/test"  component={Test} />
+          <Route path="/"  component={HomePage} />
         </Switch>
       </div>
   );
