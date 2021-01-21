@@ -19,9 +19,9 @@ class Skills extends React.Component {
                     <p>Dit is een korte tekst</p>
                 </article>
                 <article>
-                    <h2>Js</h2>
+                    <h2>Laravel</h2>
                     <img src={skills5} alt=""/>
-                    <p>Dit is een korte tekst</p>
+                    <p>Laravel, maar GENE FECKING CMS EH MAAT</p>
                 </article>
                 <article>
                     <h2>Js</h2>

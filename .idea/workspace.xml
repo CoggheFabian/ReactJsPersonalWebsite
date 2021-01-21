@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Make header for all the pages">
-      <change afterPath="$PROJECT_DIR$/src/images/skills_5.svg" afterDir="false" />
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Add skills page">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/skills.js" afterDir="false" />
@@ -32,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -41,9 +40,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projecten\react\my-app\src\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projecten\react\my-app\public" />
+      <recent name="E:\Projecten\react\my-app\src\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +62,8 @@
       <workItem from="1611046693569" duration="904000" />
       <workItem from="1611056533561" duration="33000" />
       <workItem from="1611056567943" duration="11574000" />
-      <workItem from="1611080441820" duration="2308000" />
+      <workItem from="1611080441820" duration="3558000" />
+      <workItem from="1611235298374" duration="432000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611080634863</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add skills page">
+      <created>1611084303013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611084303013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +139,8 @@
     <MESSAGE value="Finish Home Page" />
     <MESSAGE value="Fix mac image taking up too much space" />
     <MESSAGE value="Make header for all the pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make header for all the pages" />
+    <MESSAGE value="Add skills page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add skills page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
