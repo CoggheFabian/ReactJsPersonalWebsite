@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Make the blog post page with static html">
-      <change afterPath="$PROJECT_DIR$/src/Components/BlogPost/blogPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/BlogPost/blogPost.scss" afterDir="false" />
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Add a template for a post">
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Projects/projects.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlogPosts/blogPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BlogPosts/blogPosts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blog/blog.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,8 @@
       <workItem from="1611080441820" duration="3558000" />
       <workItem from="1611235298374" duration="3199000" />
       <workItem from="1611312764758" duration="2851000" />
-      <workItem from="1611326820673" duration="3287000" />
+      <workItem from="1611326820673" duration="4934000" />
+      <workItem from="1611336960296" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -133,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611315530375</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add a template for a post">
+      <created>1611335199160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611335199160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +167,8 @@
     <MESSAGE value="Add skills page" />
     <MESSAGE value="Make skills page" />
     <MESSAGE value="Make the blog post page with static html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make the blog post page with static html" />
+    <MESSAGE value="Add a template for a post" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a template for a post" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
