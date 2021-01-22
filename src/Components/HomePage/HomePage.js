@@ -5,6 +5,7 @@ import githubSvg from '../../images/github.svg';
 import linkdInSvg from '../../images/linkedin.svg';
 
 import React from 'react';
+import {Link} from "react-router-dom";
 
 class HomePage extends React.Component {
     render() {
@@ -19,6 +20,7 @@ class HomePage extends React.Component {
                     </div>
 
                     <div id="socialMedia">
+
                         <a href=""><img src={facebookSvg} alt=""/></a>
                         <a href=""><img src={githubSvg} alt=""/></a>
                         <a href=""><img src={linkdInSvg} alt=""/></a>
@@ -26,9 +28,9 @@ class HomePage extends React.Component {
 
                     <div id="navbar">
                         <a href="#" className="navigationButton">home</a>
-                        <a href="#" className="navigationButton">blog</a>
-                        <a href="#" className="navigationButton">projects</a>
-                        <a href="#" className="navigationButton">skills</a>
+                        <Link  class="navigationButton" to="/blog">blog</Link>
+                        <Link  class="navigationButton" to="/projects">projects</Link>
+                        <Link  class="navigationButton" to="/skills">skills</Link>
                     </div>
 
                 </div>
