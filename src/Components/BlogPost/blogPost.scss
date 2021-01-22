@@ -1,0 +1,24 @@
+#blogPost{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 100%;
+  grid-template-areas:
+  "blogInfo date";
+  margin-left: 30%;
+  margin-top: 2%;
+
+  #blogInfo{
+    grid-area: blogInfo;
+  }
+
+  #blogPostDate{
+    transform: rotate(90deg);
+    grid-area: date;
+    padding-top: 90%;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-bottom: 4px dashed grey;
+  }
+
+}
+

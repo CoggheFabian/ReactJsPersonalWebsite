@@ -1,7 +1,7 @@
-import './blogPosts.scss'
+import './blog.scss'
 import React from 'react';
 import Header from "../Header/header";
-class BlogPosts extends React.Component {
+class Blog extends React.Component {
     render() {
         return <>
             <Header/>
@@ -41,4 +41,4 @@ class BlogPosts extends React.Component {
         </>}
 }
 
-export default BlogPosts;
+export default Blog;
