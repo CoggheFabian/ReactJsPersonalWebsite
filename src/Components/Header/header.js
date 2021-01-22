@@ -3,6 +3,7 @@ import './header.scss'
 
 import React from 'react';
 import logo from '../../images/FC.png';
+import {Link} from "react-router-dom";
 class Header extends React.Component {
 
     render() {
@@ -10,10 +11,10 @@ class Header extends React.Component {
             <nav>
                 <img src={logo} alt=""/>
                 <ul>
-                    <a href=""><li>home</li></a>
-                    <a href=""><li>blog</li></a>
-                    <a href=""><li>projects</li></a>
-                    <a href=""><li>skills</li></a>
+                    <Link to="/"><li>home</li></Link>
+                    <Link to="/blog"><li>blog</li></Link>
+                    <Link to="/projects"><li>projects</li></Link>
+                    <Link to="/skills"><li>skills</li></Link>
                 </ul>
             </nav>
         </>}
