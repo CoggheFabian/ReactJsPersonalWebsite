@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Add skills page">
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Make skills page">
+      <change afterPath="$PROJECT_DIR$/public/blogImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BlogPosts/blogPosts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/BlogPosts/blogPosts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/skills.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Skills/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/skills.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/test.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,8 @@
       <workItem from="1611056533561" duration="33000" />
       <workItem from="1611056567943" duration="11574000" />
       <workItem from="1611080441820" duration="3558000" />
-      <workItem from="1611235298374" duration="432000" />
+      <workItem from="1611235298374" duration="3199000" />
+      <workItem from="1611312764758" duration="1818000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611084303013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Make skills page">
+      <created>1611235824209</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611235824209</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +153,8 @@
     <MESSAGE value="Fix mac image taking up too much space" />
     <MESSAGE value="Make header for all the pages" />
     <MESSAGE value="Add skills page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add skills page" />
+    <MESSAGE value="Make skills page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make skills page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
