@@ -72,3 +72,39 @@ $margin-top-underImg :20px;
   }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+  #homepageContainer{
+
+    #computerImg{
+      display: none;
+    }
+    #page{
+      display: block;
+      #personalInfo{
+        margin-left: $margin-left;
+      }
+      #faceImg{
+        margin-top: 10%;
+        width: 250px;
+        height: auto;
+      }
+      #socialMedia{
+        margin-left: $margin-left;
+        border-top: 4px dotted grey;
+        a{
+          padding-right: 5px;
+        }
+      }
+      #navbar{
+        margin-top: 0;
+        .navigationButton{
+          padding:0 0;
+        }
+      }
+
+    }
+  }
+}
+
