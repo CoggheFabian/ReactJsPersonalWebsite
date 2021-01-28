@@ -28,7 +28,6 @@ class Skills extends React.Component {
                     <img src={skills5} alt=""/>
                     <p>.NET is fecking bere, maar de hubert snapt da nog nie eh. Anders gaak eens een cobitje voor hem opstellen daarin steek wel hoe we met change mgnt moeten werken. Misschien dat hij dan het licht ziet.</p>
                 </article>
-
             </section>
         </>}
 }
