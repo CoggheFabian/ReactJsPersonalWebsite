@@ -40,3 +40,26 @@
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+
+  #projectsTitle{
+    margin-left: 3%;
+  }
+  #projectsContainer{
+    margin-left: 5%;
+
+
+    #projectsImg{
+      display: none;
+    }
+
+    #projects{
+      article{
+        a{
+         margin-bottom: 5%;
+        }
+      }
+    }
+  }
+}

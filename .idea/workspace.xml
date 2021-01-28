@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Update links in the header">
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Add responsivenss to the blog page and blog post page">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Blog/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/projects.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +66,9 @@
       <workItem from="1611312764758" duration="2851000" />
       <workItem from="1611326820673" duration="4934000" />
       <workItem from="1611336960296" duration="3005000" />
+      <workItem from="1611766353796" duration="3649000" />
+      <workItem from="1611831473646" duration="3363000" />
+      <workItem from="1611843491012" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -158,7 +161,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611343032736</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="THe user can now see his website on the front page with his phone">
+      <created>1611773325544</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1611773325544</updated>
+    </task>
+    <task id="LOCAL-00015" summary="The header can now be viewed on the phone">
+      <created>1611832007947</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611832007947</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update the blog page to now be responsive on the phone">
+      <created>1611832618746</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1611832618746</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add responsivenss to the blog page and blog post page">
+      <created>1611833995629</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1611833995629</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +221,11 @@
     <MESSAGE value="Add projects page" />
     <MESSAGE value="Update links on homepage" />
     <MESSAGE value="Update links in the header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update links in the header" />
+    <MESSAGE value="THe user can now see his website on the front page with his phone" />
+    <MESSAGE value="The header can now be viewed on the phone" />
+    <MESSAGE value="Update the blog page to now be responsive on the phone" />
+    <MESSAGE value="Add responsivenss to the blog page and blog post page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add responsivenss to the blog page and blog post page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
