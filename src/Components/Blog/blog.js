@@ -20,21 +20,21 @@ class Blog extends React.Component {
                         <h2>Titel van het artikel</h2>
                         <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
                         <p>12 december 2020</p>
-                        <Link to="/blog/1">Read More...</Link>
+                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
                     </article>
 
                     <article>
                         <h2>Titel van het artikel</h2>
                         <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
                         <p>12 december 2020</p>
-                        <Link to="/blog/1">Read More...</Link>
+                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
                     </article>
 
                     <article>
                         <h2>Titel van het artikel</h2>
                         <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
                         <p>12 december 2020</p>
-                        <Link to="/blog/1">Read More...</Link>
+                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
                     </article>
                 </div>
 

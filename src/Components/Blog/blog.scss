@@ -50,3 +50,46 @@ $margin-point-left-start: 5%;
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  #blogTitle{
+    margin-left: 3%;
+  }
+  #blog{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100%;
+    grid-template-areas: "post blogImg";
+
+    #blogImg{
+      display: none;
+    }
+
+
+
+    #posts{
+      grid-area: post;
+      article{
+        h2{
+          margin-left: $margin-point-left-start;
+          padding-bottom: 10px;
+          border-left: 4px solid black;
+          padding-left: 10px;
+        }
+        p{
+          margin-left: $margin-point-left-start
+        }
+        p:last-of-type {
+          display: inline-block;
+          margin-right: 20%;
+        }
+        a{
+          margin-bottom: 5%;
+          margin-left: $margin-point-left-start;
+        }
+
+      }
+    }
+  }
+
+}
