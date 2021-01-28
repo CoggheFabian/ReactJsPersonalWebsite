@@ -11,12 +11,12 @@ class Skills extends React.Component {
                 <article>
                     <h2>Js</h2>
                     <img src={skills5} alt=""/>
-                    <p>Dit is een korte tekst</p>
+                    <p>Dit is een korte tekst met mijn magische js skills.</p>
                 </article>
                 <article>
                     <h2>Js</h2>
                     <img src={skills5} alt=""/>
-                    <p>Dit is een korte tekst</p>
+                    <p>Dit is nog een stuk over js, gewoon omdat ik aan hubert wil zeggen dat ik ook js kan.</p>
                 </article>
                 <article>
                     <h2>Laravel</h2>
@@ -24,9 +24,9 @@ class Skills extends React.Component {
                     <p>Laravel, maar GENE FECKING CMS EH MAAT</p>
                 </article>
                 <article>
-                    <h2>Js</h2>
+                    <h2>.Net</h2>
                     <img src={skills5} alt=""/>
-                    <p>Dit is een korte tekst</p>
+                    <p>.NET is fecking bere, maar de hubert snapt da nog nie eh. Anders gaak eens een cobitje voor hem opstellen daarin steek wel hoe we met change mgnt moeten werken. Misschien dat hij dan het licht ziet.</p>
                 </article>
 
             </section>
