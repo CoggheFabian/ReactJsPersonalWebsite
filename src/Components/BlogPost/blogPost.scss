@@ -19,6 +19,18 @@
     font-size: 1.3em;
     border-bottom: 4px dashed grey;
   }
+}
 
+@media only screen and (max-width: 768px) {
+
+  #blogPost{
+    margin-left: 5%;
+    display: block;
+    #blogPostDate{
+      transform: none;
+      padding-top: 0;
+      border-bottom: none;
+    }
+  }
 }
 
