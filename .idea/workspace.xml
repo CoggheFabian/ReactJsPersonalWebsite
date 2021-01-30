@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Add responsivenss to the blog page and blog post page">
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Make the projects page flexible">
+      <change afterPath="$PROJECT_DIR$/src/Misc/apiUrl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repositories/GenericApiCall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Views/Skills/skillsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/skills_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/skills_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/skills_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/skills_4.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Skills/skills.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +41,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="E:\Projecten\react\my-app\src\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Views/Skills" />
       <recent name="E:\Projecten\react\my-app\public" />
       <recent name="E:\Projecten\react\my-app\src\images" />
     </key>
@@ -68,7 +81,12 @@
       <workItem from="1611336960296" duration="3005000" />
       <workItem from="1611766353796" duration="3649000" />
       <workItem from="1611831473646" duration="3363000" />
-      <workItem from="1611843491012" duration="491000" />
+      <workItem from="1611843491012" duration="1326000" />
+      <workItem from="1611846085423" duration="1858000" />
+      <workItem from="1612016821933" duration="384000" />
+      <workItem from="1612017217007" duration="30000" />
+      <workItem from="1612017256175" duration="2517000" />
+      <workItem from="1612020991730" duration="7560000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -189,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611833995629</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Make the projects page flexible">
+      <created>1611844023712</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611844023712</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +250,8 @@
     <MESSAGE value="The header can now be viewed on the phone" />
     <MESSAGE value="Update the blog page to now be responsive on the phone" />
     <MESSAGE value="Add responsivenss to the blog page and blog post page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add responsivenss to the blog page and blog post page" />
+    <MESSAGE value="Make the projects page flexible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make the projects page flexible" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
