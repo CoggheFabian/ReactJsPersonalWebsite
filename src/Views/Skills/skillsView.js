@@ -27,7 +27,7 @@ class SkillsView extends React.Component {
             <div>
                 <Header/>
                 {this.state.isFetching ? (
-                    <LoaderDots size="large" theme="muted"/>
+                    <LoaderDots size="medium" theme="muted"/>
                 ) : (
                     <section id="skills">
                         <h1>Skills</h1>

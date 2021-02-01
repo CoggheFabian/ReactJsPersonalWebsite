@@ -1,3 +1,4 @@
 {
-  "URL":"https://arcane-shelf-85988.herokuapp.com/api/"
+  "URL":"https://arcane-shelf-85988.herokuapp.com/api/",
+  "GithubURL": "https://api.github.com/users/CoggheFabian/repos"
 }

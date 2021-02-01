@@ -1,61 +1,17 @@
-import './projects.scss'
+import React from 'react'
+import {Link} from "react-router-dom";
 
-import React from 'react';
-import Header from "../Header/header";
-class Projects extends React.Component {
-
-    render() {
-        return <>
-            <Header/>
-            <h1 id="projectsTitle">Projects</h1>
-            <section id="projectsContainer">
-                <div id="projects">
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-                    <article>
-                        <h2>ProjectTitle from gethub</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <a href="">See on github</a>
-                    </article>
-
-
-                </div>
-                <div id="projectsImg" style={{
-                    backgroundImage: `url(${process.env.PUBLIC_URL + '/projectsImg.jpg'})`,
-                    backgroundRepeat: 'no-repeat',
-                    backgroundSize: '100% 100%'}}>
-                </div>
-
-            </section>
-        </>}
-}
-
-export default Projects;
+const Projects = ({ projects }) => {
+    return (
+        <div>
+            {projects.map((project) => (
+                <article>
+                    <h2>{project.name}</h2>
+                    <p>{project.description}</p>
+                    <Link to={project.html_url}>See on github...</Link>
+                </article>
+            ))}
+        </div>
+    )
+};
+export default Projects

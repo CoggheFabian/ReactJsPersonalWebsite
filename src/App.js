@@ -6,7 +6,7 @@ import HomePage from "./Components/HomePage/HomePage";
 import SkillsView from "./Views/Skills/skillsView";
 import Blog from "./Components/Blog/blog";
 import BlogPost from "./Components/BlogPost/blogPost";
-import Projects from "./Components/Projects/projects";
+import ProjectsView from "./Views/Projects/projectsView";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
                   <Route path="/skills"  component={SkillsView} exact/>
                   <Route path="/blog" component={Blog} exact />
                   <Route path="/blog/:postId" component={BlogPost} exact />
-                  <Route path="/projects" component={Projects} exact />
+                  <Route path="/projects" component={ProjectsView} exact />
               </Switch>
           </BrowserRouter>
       </div>

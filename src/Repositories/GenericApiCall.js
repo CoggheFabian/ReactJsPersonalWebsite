@@ -9,7 +9,17 @@ const getDataFromOwnAPI = async (endpoint) => {
         .catch(console.log)
 }
 
+const getDataFromGitHubAPI = async () => {
+    return await fetch(`${apiUrl["GithubURL"]}`)
+        .then(res => res.json())
+        .then((data) => {
+            return data;
+        })
+        .catch(console.log)
+}
+
 
 export {
-    getDataFromOwnAPI
+    getDataFromOwnAPI,
+    getDataFromGitHubAPI
 }
