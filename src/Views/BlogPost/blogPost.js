@@ -1,7 +1,7 @@
 import './blogPost.scss'
 
 import React from 'react';
-import Header from "../Header/header";
+import Header from "../../Components/Header/header";
 class BlogPost extends React.Component {
 
     render() {

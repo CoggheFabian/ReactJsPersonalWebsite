@@ -1,11 +1,11 @@
 import React from "react";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';
-import HomePage from "./Components/HomePage/HomePage";
+import HomePage from "./Views/HomePage/HomePage";
 
 import SkillsView from "./Views/Skills/skillsView";
-import Blog from "./Components/Blog/blog";
-import BlogPost from "./Components/BlogPost/blogPost";
+import Blog from "./Views/Blog/blog";
+import BlogPost from "./Views/BlogPost/blogPost";
 import ProjectsView from "./Views/Projects/projectsView";
 
 function App() {
