@@ -1,6 +1,6 @@
-import SkillsView from "../Views/Skills/skillsView";
 import apiUrl from "../Misc/apiUrl.json"
-async function getDataFromAPI(endpoint){
+
+const getDataFromOwnAPI = async (endpoint) => {
     return await fetch(`${apiUrl["URL"]}${endpoint}`)
         .then(res => res.json())
         .then((data) => {
@@ -9,4 +9,7 @@ async function getDataFromAPI(endpoint){
         .catch(console.log)
 }
 
-export default getDataFromAPI;
+
+export {
+    getDataFromOwnAPI
+}
