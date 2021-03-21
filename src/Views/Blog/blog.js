@@ -1,8 +1,32 @@
 import './blog.scss'
 import React from 'react';
 import Header from "../../Components/Header/header";
-import {Link} from "react-router-dom";
+import {LoaderDots} from "@thumbtack/thumbprint-react";
+import {getDataFromOwnAPI} from "../../Repositories/GenericApiCall";
+import Blogs from "../../Components/Blog/blogComponent";
 class Blog extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isFetching: true,
+            blogs: []
+        };
+    }
+
+    async componentDidMount() {
+        await getDataFromOwnAPI("blogs").then(data => {
+            this.getShortText(data.blogs)
+            this.setState({blogs : data.blogs});
+            this.setState({isFetching: false})
+        });
+
+    }
+
+    async getShortText(blogs){
+        blogs.forEach(blog => {
+            blog["shortText"] = blog.text.substring(0,100)
+        })
+    }
     render() {
         return <>
             <Header/>
@@ -15,29 +39,14 @@ class Blog extends React.Component {
                 </div>
 
                 <div id="posts">
-
-                    <article>
-                        <h2>Titel van het artikel</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <p>12 december 2020</p>
-                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
-                    </article>
-
-                    <article>
-                        <h2>Titel van het artikel</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <p>12 december 2020</p>
-                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
-                    </article>
-
-                    <article>
-                        <h2>Titel van het artikel</h2>
-                        <p>One advanced diverted domestic sex repeated bringing you old. One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.One advanced diverted domestic sex repeated bringing you old.</p>
-                        <p>12 december 2020</p>
-                        <Link to="/blog/1" class="blogPostLink">Read More...</Link>
-                    </article>
+                        {this.state.isFetching ? (
+                            <LoaderDots size="medium" theme="muted"/>
+                        ) : (
+                            <>
+                                <Blogs blogs={this.state.blogs}/>
+                            </>
+                        )}
                 </div>
-
             </section>
         </>}
 }

@@ -1,1 +1,0 @@
-alert("Deze component moet ik nog nabootsen nadat ik eens een artikel heb")
