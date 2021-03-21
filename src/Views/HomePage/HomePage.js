@@ -21,9 +21,9 @@ class HomePage extends React.Component {
 
                     <div id="socialMedia">
 
-                        <a href=""><img src={facebookSvg} alt=""/></a>
-                        <a href=""><img src={githubSvg} alt=""/></a>
-                        <a href=""><img src={linkdInSvg} alt=""/></a>
+                        <a href="https://www.facebook.com/fabian.cogghe.33/"><img src={facebookSvg} alt=""/></a>
+                        <a href="https://github.com/CoggheFabian"><img src={githubSvg} alt=""/></a>
+                        <a href="https://www.linkedin.com/in/fabian-cogghe-13777a178/"><img src={linkdInSvg} alt=""/></a>
                     </div>
 
                     <div id="navbar">

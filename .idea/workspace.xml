@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="Make seperate compoent for the skills with the data filled from api">
-      <change afterPath="$PROJECT_DIR$/src/Components/Blog/blogComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Blog/blogPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Views/BlogPost/blogPostView.js" afterDir="false" />
+    <list default="true" id="33981c97-ac8b-47dc-a84d-c023bdac2b22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Blog/blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/Blog/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Blog/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BlogPost/blogPost.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Views/BlogPost/blogPost.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/BlogPost/blogPost.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Views/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/HomePage/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +96,7 @@
       <workItem from="1612099600567" duration="2439000" />
       <workItem from="1612173244674" duration="5091000" />
       <workItem from="1612798310188" duration="108000" />
-      <workItem from="1616326172353" duration="7774000" />
+      <workItem from="1616326172353" duration="8065000" />
     </task>
     <task id="LOCAL-00001" summary="Git init">
       <created>1610980411030</created>
@@ -252,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612185753258</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add dynamic blog post to the front end">
+      <created>1616337117344</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616337117344</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +292,8 @@
     <MESSAGE value="Make seperate compoent for the skills with the data filled from api" />
     <MESSAGE value="Add Loader when the page is still getting data from the api" />
     <MESSAGE value="Add Github APi Support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Github APi Support" />
+    <MESSAGE value="Add dynamic blog post to the front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dynamic blog post to the front end" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
