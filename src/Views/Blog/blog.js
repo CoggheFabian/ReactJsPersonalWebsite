@@ -4,6 +4,7 @@ import Header from "../../Components/Header/header";
 import {LoaderDots} from "@thumbtack/thumbprint-react";
 import {getDataFromOwnAPI} from "../../Repositories/GenericApiCall";
 import Blogs from "../../Components/Blog/blogComponent";
+import ReactPlayer from "react-player";
 class Blog extends React.Component {
     constructor(props) {
         super(props);
@@ -44,6 +45,16 @@ class Blog extends React.Component {
                         ) : (
                             <>
                                 <Blogs blogs={this.state.blogs}/>
+                                <div id='talk'>
+                                    <h1>Ignite talk</h1>
+                                    <ReactPlayer
+                                        className='react-player fixed-bottom'
+                                        url='videos/Personal_website_ignite_talk.mkv'
+                                        width='50%'
+                                        height='50%'
+                                        controls = {true}
+                                    />
+                                </div>
                             </>
                         )}
                 </div>

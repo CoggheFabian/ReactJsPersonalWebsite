@@ -6,7 +6,7 @@ $margin-point-left-start: 5%;
 #blog{
   display: grid;
   grid-template-columns: 70% 30%;
-  grid-template-rows: 100%;
+  grid-template-rows: 80% 20%;
   grid-template-areas: "post blogImg";
 
   #blogImg{
@@ -14,7 +14,10 @@ $margin-point-left-start: 5%;
     margin-right: 5%;
   }
 
-
+  #talk{
+    padding-top: 5%;
+    margin-left: $margin-point-left-start;
+  }
 
   #posts{
     grid-area: post;
